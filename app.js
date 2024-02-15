@@ -11,6 +11,8 @@ about.addEventListener('click', function(e) {
             e.target.classList.add('active')
         })
         // hide other articles
-        articles.forEach(function(article))
+        articles.forEach(function(article){
+            article.classList.remove('active')
+        })
     }
 })

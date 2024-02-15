@@ -8,6 +8,7 @@ about.addEventListener('click', function(e) {
         // remove active from other buttons
         btns.forEach(function(btn) {
             btn.classList.remove('active')
+            e.target.classList.add('active')
         })
     }
 })

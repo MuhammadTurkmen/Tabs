@@ -3,5 +3,6 @@ const about = document.querySelector('.about')
 const articles = document.querySelectorAll('.content')
 
 about.addEventListener('click', function(e) {
-    const id = e.target.dataset
+    const id = e.target.dataset.id
+    
 })

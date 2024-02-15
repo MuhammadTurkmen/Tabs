@@ -10,5 +10,6 @@ about.addEventListener('click', function(e) {
             btn.classList.remove('active')
             e.target.classList.add('active')
         })
+        // hide other articles
     }
 })
